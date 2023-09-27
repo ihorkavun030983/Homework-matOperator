@@ -1,14 +1,17 @@
-var x=prompt('2');
-var y=prompt('2');
+var firstNumber=prompt('2');
+var secondNumber=prompt('2');
 
-var z=(Number(x)+Number(y));
-alert("Cума чисел: " + z);
+firstNumber = Number(firstNumber);
+secondNumber = Number(secondNumber);
 
-var z=(Number(x)-Number(y));
-alert("Різниця чисел: " + z);
+var operation= firstNumber + secondNumber;
+alert("Cума чисел: " + operation);
 
-var z=(Number(x)*Number(y));
-alert("Добуток чисел: " + z);
+var operation= firstNumber - secondNumber;
+alert("Різниця чисел: " + operation);
 
-var z=(Number(x)/Number(y));
-alert("Ділення чисел: " + z); 
+var operation= firstNumber * secondNumber;
+alert("Добуток чисел: " + operation);
+
+var operation= firstNumber / secondNumber;
+alert("Ділення чисел: " + operation); 
